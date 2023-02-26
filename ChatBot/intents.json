@@ -1,0 +1,121 @@
+{
+   "intents":[
+      {
+         "tag":"greeting",
+         "patterns":["Hi there", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+         "responses":["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context":[ "" ]
+      },
+      {
+         "tag":"goodbye",
+         "patterns":["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses":[ "See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context":[ "" ]
+      },
+      {
+         "tag":"thanks",
+         "patterns":[ "Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses":["Happy to help!", "Any time!", "My pleasure"],
+         "context":[ "" ]
+      },
+      {
+         "tag":"noanswer",
+         "patterns":[
+            
+         ],
+         "responses":[
+            "Sorry, can't understand you",
+            "Please give me more information",
+            "Not sure I understand"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"options",
+         "patterns":[
+            "How you could help me?",
+            "What you can do?",
+            "What help you provide?",
+            "How you can be helpful?",
+            "Who are you?",
+            "What support is offered"
+         ],
+         "responses":[
+            "I am a ChatBot created using NLTK.",
+            "I am an AI powered ChatBot created by ABODIC group.",
+            "I am an AI powered ChatBot and they call me ChatBOT :)"
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"python_is_best",
+         "patterns":[
+            "Which is the best programming language?",
+            "Can you tell me the best language ever?",
+            "What language can I start for programming",
+            "Is Python language an awesome language?",
+            "I am a beginner and I need to learn a new language"
+         ],
+         "responses":[
+            "Without a doubt, Python is the most BEAUTIFUL language ever! You can start learning it anytime.",
+            "I am a fan of Python. It's my favorite ever. If you don't believe me, try it yourself."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"joke",
+         "patterns":[
+            "tell me a joke",
+            "can you tell me a joke",
+            "make some fun",
+            "make me laugh and do some funny joke",
+            "tell me a joke"
+         ],
+         "responses":[
+            "How do functions break up? \n They stop calling each other.",
+            "What did one snowman say to the other? \n Do you smell carrots?",
+            "This might make you laugh. How do robots eat guacamole? With computer chips."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"gk",
+         "patterns":[
+            "What is the capital of Nepal?",
+            "Capital of Nepal",
+            "Nepal Capital"
+         ],
+         "responses":[
+            "The capital of Nepal is Kathmandu.",
+            "Kathmandu is the capital of Nepal."
+         ],
+         "context":[
+            ""
+         ]
+      },
+      {
+         "tag":"pm",
+         "patterns":[
+            "Who is the Prime Minister of Nepal?",
+            "PM of Nepal",
+            "Nepal PM"
+         ],
+         "responses":[
+            "The Prime Minister of Nepal is Sher Bahadur Deuba.",
+            "Sher Bahadur Deuba is the Prime Minister of Nepal.",
+            "The PM of Nepal is Sher Bahadur Deuba"
+         ],
+         "context":[
+            ""
+         ]
+      }
+   ]
+}
